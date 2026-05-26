@@ -1,0 +1,56 @@
+name: photo_cleaner
+description: 相册清理助手 - 一款帮助用户快速整理相册的应用
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 状态管理
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+  
+  # 相册访问
+  photo_manager: ^3.0.0-dev.5
+  
+  # 视频播放
+  video_player: ^2.8.1
+  chewie: ^1.7.1
+  
+  # 权限管理
+  permission_handler: ^11.1.0
+  
+  # 发送邮件
+  url_launcher: ^6.2.2
+  
+  # 路径管理
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # 本地存储
+  shared_preferences: ^2.2.2
+  
+  # 国际化
+  intl: ^0.18.1
+  
+  # 图片缓存
+  cached_network_image: ^3.3.0
+  
+  # 图片手势
+  photo_view: ^0.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  riverpod_generator: ^2.3.9
+  build_runner: ^2.4.7
+  custom_lint: ^0.5.7
+  riverpod_lint: ^2.3.7
+
+flutter:
+  uses-material-design: true
