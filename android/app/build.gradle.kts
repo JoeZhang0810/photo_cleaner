@@ -1,5 +1,6 @@
 plugins {
     id("com.android.application")
+    id("org.jetbrains.kotlin.android")  // 必须添加这个插件才能编译 Kotlin 代码
     id("dev.flutter.flutter-gradle-plugin")
 }
 
